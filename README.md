@@ -1,6 +1,6 @@
 Hello!
 
-The following is my VCPU project I worked on to create a virtual Computer.
+The following is my VCPU project I worked on to create a virtual computer.
 
 This project was intended to be used to better learn how a computer not only runs from the base level,
 but also how programs and compilers work.
