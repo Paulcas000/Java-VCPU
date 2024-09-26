@@ -4,12 +4,14 @@ The following is my VCPU project I worked on to create a virtual computer.
 
 This project was intended to be used to better learn how a computer not only runs from the base level,
 but also how programs and compilers work.
+
 The program also includes three registers, 
 the GPREG for the data currently being manipulated, the PCREG storing which line/instruction the compiler is on, and the IRREG storing the command of the current line.
 
-The Assembler compiles the submitted file, converting entered commands into machine code based on the "codebook"
+The Assembler compiles the submitted file, converting entered commands into machine code based on the "codebook".\
 All command values in memory are stored in a 4-digit integer, with the first two values being the command, and the final two being the operand, often memory location.
 One limitation of the VCPU is it only has 100 memory values, which is split between the commands of the submitted program, and the memory values utilized.
+
 Below are the following commands.
 
     HALT  = 0   Ends the Program
