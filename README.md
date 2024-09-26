@@ -21,12 +21,12 @@ Below are the following commands.
     STOR  = 7   Stores the GPREG in memory
     READ  = 8   Reads user input
     WRITE = 9   Outputs the value at a specific memory location
-    BR    = 10  Branch statement, return to line specified
+    BR    = 10  Branch statement, return to the line specified
     BZ    = 11  Branch statement, if GPREG = 0, return to line specified
     BN    = 12  Brand statement, if GPREG != 0, return to line specified
     DUMP  = 13  Ouput all memory values
 
-Then, the VPCrte, or virtual runtime environment, executes the code based on the aforementioned codebook.
+Then the VPCrte, or virtual runtime environment, executes the code based on the aforementioned codebook.
 
 I have also provided a sample program created in the assembly language I created, named addTwo, which adds two values together entered by the user and then outputs the sum.
 
