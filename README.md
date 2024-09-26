@@ -27,5 +27,8 @@ Below are the following commands.
     DUMP  = 13  Ouput all memory values
 
 Then, the VPCrte, or virtual runtime environment, executes the code based on the aforementioned codebook.
+
 I have also provided a sample program created in the assembly language I created, named addTwo, which adds two values together entered by the user and then outputs the sum.
+
+
 As a result of the project, you are able to produce basic assembly level programs.
